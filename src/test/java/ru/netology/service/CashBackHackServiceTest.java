@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-public class CashbackHackServiceTest {
+public class CashBackHackServiceTest {
 
     @Test
     public void testRemain() {
-        CashbackHackService service = new CashbackHackService();
+        CashBackHackService service = new CashBackHackService();
         assertEquals(service.remain(999), 1);
     }
 
     @Test
     public void testEqual() {
-        CashbackHackService service = new CashbackHackService();
+        CashBackHackService service = new CashBackHackService();
         assertEquals(service.remain(1000), 0);
     }
 }
